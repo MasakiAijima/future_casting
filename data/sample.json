@@ -8,7 +8,8 @@
       "category": "Environment",
       "description": "Node 1",
       "probability": 0,
-      "timeline": 0
+      "timeline": 0,
+      "image_url": "https://via.placeholder.com/150"
     },
     {
       "id": "Af-1",
@@ -17,7 +18,8 @@
       "category": "Social",
       "description": "Node 2",
       "probability": 0,
-      "timeline": 0
+      "timeline": 0,
+      "image_url": "https://via.placeholder.com/150"
     },
     {
       "id": "Im-1",
@@ -26,7 +28,8 @@
       "category": "Social",
       "description": "Node 3",
       "probability": 0,
-      "timeline": 0
+      "timeline": 0,
+      "image_url": "https://via.placeholder.com/150"
     },
     {
       "id": "Go-1",
@@ -35,7 +38,8 @@
       "category": "N/A",
       "description": "Node 4",
       "probability": 0,
-      "timeline": 0
+      "timeline": 0,
+      "image_url": "https://via.placeholder.com/150"
     }
   ],
   "links": [
