@@ -6,32 +6,40 @@
       "display_name": "Node 1",
       "layer": "Signal",
       "category": "Environment",
-      "description": "Node 1"
-      ,"image_url": "https://via.placeholder.com/150"
+      "description": "Node 1",
+      "probability": 0,
+      "timeline": 0,
+      "image_url": "https://via.placeholder.com/150"
     },
     {
       "id": "Af-1",
       "display_name": "Node 2",
       "layer": "Signal",
       "category": "Social",
-      "description": "Node 2"
-      ,"image_url": "https://via.placeholder.com/150"
+      "description": "Node 2",
+      "probability": 0,
+      "timeline": 0,
+      "image_url": "https://via.placeholder.com/150"
     },
     {
       "id": "Im-1",
       "display_name": "Node 3",
       "layer": "Scenario",
       "category": "Social",
-      "description": "Node 3"
-      ,"image_url": "https://via.placeholder.com/150"
+      "description": "Node 3",
+      "probability": 0,
+      "timeline": 0,
+      "image_url": "https://via.placeholder.com/150"
     },
     {
       "id": "Go-1",
       "display_name": "Node 4",
       "layer": "Paradigm",
       "category": "N/A",
-      "description": "Node 4"
-      ,"image_url": "https://via.placeholder.com/150"
+      "description": "Node 4",
+      "probability": 0,
+      "timeline": 0,
+      "image_url": "https://via.placeholder.com/150"
     }
   ],
   "links": [
