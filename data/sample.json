@@ -1,14 +1,47 @@
 {
   "title": "Sample Data",
   "nodes": [
-    {"id": "Mi-1", "display_name": "Node 1", "layer": "Micro", "category": "Natural"},
-    {"id": "Af-1", "display_name": "Node 2", "layer": "Affordance", "category": "Human"},
-    {"id": "Im-1", "display_name": "Node 3", "layer": "Impact", "category": "Social"},
-    {"id": "Go-1", "display_name": "Node 4", "layer": "Goal", "category": "Cultural"}
+    {
+      "id": "Mi-1",
+      "display_name": "Node 1",
+      "layer": "Signal",
+      "category": "Environment",
+      "description": "Node 1"
+    },
+    {
+      "id": "Af-1",
+      "display_name": "Node 2",
+      "layer": "Signal",
+      "category": "Social",
+      "description": "Node 2"
+    },
+    {
+      "id": "Im-1",
+      "display_name": "Node 3",
+      "layer": "Scenario",
+      "category": "Social",
+      "description": "Node 3"
+    },
+    {
+      "id": "Go-1",
+      "display_name": "Node 4",
+      "layer": "Paradigm",
+      "category": "N/A",
+      "description": "Node 4"
+    }
   ],
   "links": [
-    {"source": "Mi-1", "target": "Af-1"},
-    {"source": "Af-1", "target": "Im-1"},
-    {"source": "Im-1", "target": "Go-1"}
+    {
+      "source": "Mi-1",
+      "target": "Af-1"
+    },
+    {
+      "source": "Af-1",
+      "target": "Im-1"
+    },
+    {
+      "source": "Im-1",
+      "target": "Go-1"
+    }
   ]
 }
