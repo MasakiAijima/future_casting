@@ -278,6 +278,8 @@ function clearHighlight() {
 // ノードクリックで説明文の表示/非表示を切り替え
 function toggleDescription(event, d) {
   const g = d3.select(this);
+  // bring clicked element to front so it appears above others
+  g.raise();
   const circle = g.select("circle.node-circle");
   const label = g.select("text:not(.description)");
   const desc = g.select("text.description");
@@ -313,7 +315,7 @@ function toggleDescription(event, d) {
 
   if (!expanded) {
     desc.style("display", "block");
-    const width = newR * 2.0;
+    const width = newR * 1.2; // narrower wrap width for descriptions
     wrapText(desc, width);
     const bbox = desc.node().getBBox();
     bg.attr("width", bbox.width + 8)
