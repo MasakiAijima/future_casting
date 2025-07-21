@@ -196,7 +196,11 @@ function draw({ nodes, links }) {
   // 説明文（初期は非表示）
   nodeG.append("text")
     .attr("class", "description")
-    .text(d => d.description)
+    .text(d => {
+      const prob = d.probability ?? 0;
+      const time = d.timeline ?? 0;
+      return `${d.description} (p: ${prob}, t: ${time})`;
+    })
     .attr("dy", "1.2em")
     .attr("text-anchor", "middle")
     .attr("fill", "#333")
