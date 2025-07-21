@@ -787,7 +787,7 @@
     {
       "id": "Mi-88",
       "display_name": "選択的夫婦別姓の一時的ブーム",
-      "layer": "scenario",
+      "layer": "Scenario",
       "category": "Politics",
       "description": "一部野党や市民団体が選択的夫婦別姓を強く訴え、SNSやメディアで話題化。しかし保守派の根強い反発と法改正プロセスの複雑さにより、国会での審議は停滞。結局法案は成立せず、ブームは衰退し、再び議論は小康状態に陥る。",
       "probability": 0.2,
@@ -796,7 +796,7 @@
     {
       "id": "Mi-89",
       "display_name": "選択的夫婦別姓の限定的導入",
-      "layer": "scenario",
+      "layer": "Scenario",
       "category": "Politics",
       "description": "世論の一定の支持を受け、特定自治体において「選択的夫婦別姓パイロット制度」が導入されるも、全国展開には至らず。適用対象も婚姻届提出地域に限定され、広がりは限定的。",
       "probability": 0.4,
@@ -805,7 +805,7 @@
     {
       "id": "Mi-90",
       "display_name": "選択的夫婦別姓の全国的定着",
-      "layer": "scenario",
+      "layer": "Scenario",
       "category": "Politics",
       "description": "若年層を中心とした支持拡大を背景に、国会で法改正が可決。2028年には選択的夫婦別姓が全国的に定着し、結婚後の姓の自由選択が当たり前の社会に。",
       "probability": 0.6,
@@ -814,7 +814,7 @@
     {
       "id": "Mi-91",
       "display_name": "EVシェアリングが一過性のトレンドに終わる",
-      "layer": "scenario",
+      "layer": "Scenario",
       "category": "Economy",
       "description": "都市部でEVシェアリングサービスが急増したものの、充電インフラ不足や利用コストの高さが課題となり、利用者離れが進んで衰退する。",
       "probability": 0.3,
@@ -823,7 +823,7 @@
     {
       "id": "Mi-92",
       "display_name": "EVシェアリングの地域限定普及",
-      "layer": "scenario",
+      "layer": "Scenario",
       "category": "Economy",
       "description": "大都市圏の都心部・観光地ではEVシェアリングが一定の支持を得るが、郊外や地方では自家用車依存が根強く、全国的には広がりきらない。",
       "probability": 0.5,
@@ -832,7 +832,7 @@
     {
       "id": "Mi-93",
       "display_name": "EVシェアリングの全国インフラ化",
-      "layer": "scenario",
+      "layer": "Scenario",
       "category": "Economy",
       "description": "政府のEVインフラ補助と自治体連携で全国に充電ステーションが整備され、EVシェアリングが地方都市にも波及し、モビリティの新標準となる。",
       "probability": 0.4,
@@ -841,7 +841,7 @@
     {
       "id": "Mi-94",
       "display_name": "都市農園のブーム後の消失",
-      "layer": "scenario",
+      "layer": "Scenario",
       "category": "Society",
       "description": "コロナ禍で注目を集めた都市農園が、初期の体験型需要を失い、運営コスト負担から多くが閉園する。",
       "probability": 0.3,
@@ -850,7 +850,7 @@
     {
       "id": "Mi-95",
       "display_name": "都市農園の一部定着",
-      "layer": "scenario",
+      "layer": "Scenario",
       "category": "Society",
       "description": "一部の自治体や企業主導で都市農園が運営継続されるが、市民参加型のモデルは限定的に留まる。",
       "probability": 0.5,
@@ -859,7 +859,7 @@
     {
       "id": "Mi-96",
       "display_name": "都市農園が日常文化に浸透",
-      "layer": "scenario",
+      "layer": "Scenario",
       "category": "Society",
       "description": "学校・企業・自治体の連携で都市農園が都市計画に組み込まれ、住民の日常的な交流・食育の場として定着する。",
       "probability": 0.6,
@@ -868,7 +868,7 @@
     {
       "id": "Mi-97",
       "display_name": "デジタル運動会が短期間で消滅",
-      "layer": "scenario",
+      "layer": "Scenario",
       "category": "Ethics",
       "description": "オンライン開催の「デジタル運動会」が一過性のトレンドとして広がるも、参加者のモチベーション低下で翌年以降は中止が相次ぐ。",
       "probability": 0.3,
@@ -877,7 +877,7 @@
     {
       "id": "Mi-98",
       "display_name": "デジタル運動会のハイブリッド開催",
-      "layer": "scenario",
+      "layer": "Scenario",
       "category": "Ethics",
       "description": "リアルとオンラインを併用したハイブリッド方式で一部学校が継続するが、参加校は限られ、全国普及には至らない。",
       "probability": 0.4,
@@ -886,7 +886,7 @@
     {
       "id": "Mi-99",
       "display_name": "デジタル運動会の新標準化",
-      "layer": "scenario",
+      "layer": "Scenario",
       "category": "Ethics",
       "description": "ICT教育の一環として、全ての学校がオンライン要素を取り入れた運動会を毎年開催し、障がい者や遠隔地参加者を含む包摂的イベントに進化。",
       "probability": 0.5,
@@ -895,7 +895,7 @@
     {
       "id": "Mi-100",
       "display_name": "スマートロック普及の挫折",
-      "layer": "scenario",
+      "layer": "Scenario",
       "category": "Technology",
       "description": "IoTスマートロックが一時的に話題となるも、セキュリティ懸念や設定トラブルで多くの導入が中断される。",
       "probability": 0.3,
@@ -904,7 +904,7 @@
     {
       "id": "Mi-101",
       "display_name": "スマートロックの限定普及",
-      "layer": "scenario",
+      "layer": "Scenario",
       "category": "Technology",
       "description": "高級賃貸マンションやAirbnb向けにのみスマートロックが定着するが、一般住宅への普及は進まない。",
       "probability": 0.5,
@@ -913,7 +913,7 @@
     {
       "id": "Mi-102",
       "display_name": "スマートロックが標準インフラ化",
-      "layer": "scenario",
+      "layer": "Scenario",
       "category": "Technology",
       "description": "IoTプラットフォームとの統合進展で、全ての賃貸・戸建てに標準搭載され、鍵の概念がデジタルに完全移行。",
       "probability": 0.4,
@@ -922,7 +922,7 @@
     {
       "id": "Mi-103",
       "display_name": "グリーンビル認証の一過性ブーム",
-      "layer": "scenario",
+      "layer": "Scenario",
       "category": "Environment",
       "description": "LEED/CASBEE認証取得ラッシュが起きるも、認証コスト高騰で多くの事業者が申請を断念し、勢いを失う。",
       "probability": 0.3,
@@ -931,7 +931,7 @@
     {
       "id": "Mi-104",
       "display_name": "グリーンビル認証の局所的定着",
-      "layer": "scenario",
+      "layer": "Scenario",
       "category": "Environment",
       "description": "大手デベロッパーや官庁舎などでのみ認証が継続され、中小ビルでは取得が見送られる状況が続く。",
       "probability": 0.5,
@@ -940,7 +940,7 @@
     {
       "id": "Mi-105",
       "display_name": "グリーンビル認証の業界標準化",
-      "layer": "scenario",
+      "layer": "Scenario",
       "category": "Environment",
       "description": "政府による補助強化と規制強化で、全ての新築・大規模改修に対し環境認証取得が義務化され、デファクトスタンダードに。",
       "probability": 0.4,
@@ -949,7 +949,7 @@
     {
       "id": "Mi-106",
       "display_name": "シェアハウス住宅の一時的流行",
-      "layer": "scenario",
+      "layer": "Scenario",
       "category": "Housing",
       "description": "若年層向けシェアハウスがSNSで話題になるも、プライバシー問題や住民トラブルで多くが撤退。",
       "probability": 0.3,
@@ -958,7 +958,7 @@
     {
       "id": "Mi-107",
       "display_name": "シェアハウスの地域限定定着",
-      "layer": "scenario",
+      "layer": "Scenario",
       "category": "Housing",
       "description": "東京・大阪など大都市圏でのみ一定のシェアハウス需要が続くが、地方では根付かない。",
       "probability": 0.5,
@@ -967,7 +967,7 @@
     {
       "id": "Mi-108",
       "display_name": "シェアハウスが住宅の新常識に",
-      "layer": "scenario",
+      "layer": "Scenario",
       "category": "Housing",
       "description": "多様なライフスタイルに対応する住宅モデルとして、シェアハウスが戸建・賃貸に次ぐ第3の選択肢として全国で標準化。",
       "probability": 0.4,
@@ -976,7 +976,7 @@
     {
       "id": "Mi-109",
       "display_name": "リモートワーク特化オフィスの消滅",
-      "layer": "scenario",
+      "layer": "Scenario",
       "category": "Office",
       "description": "リモートワーク対応小型オフィスが急増するも、企業の出社再推進でほとんど閉鎖に追い込まれる。",
       "probability": 0.3,
@@ -985,7 +985,7 @@
     {
       "id": "Mi-110",
       "display_name": "リモートワーク特化オフィスの局所的存続",
-      "layer": "scenario",
+      "layer": "Scenario",
       "category": "Office",
       "description": "地方都市のサテライトオフィスとして一部企業が維持するが、都市圏中心の展開に留まる。",
       "probability": 0.5,
@@ -994,7 +994,7 @@
     {
       "id": "Mi-111",
       "display_name": "リモートワーク特化オフィスの常設化",
-      "layer": "scenario",
+      "layer": "Scenario",
       "category": "Office",
       "description": "大企業が全国にサテライトオフィス網を構築し、社員は勤務地を自由選択できるワークプレイスの新標準に。",
       "probability": 0.4,
@@ -1003,7 +1003,7 @@
     {
       "id": "Mi-112",
       "display_name": "リアル商業施設の一過性回帰",
-      "layer": "scenario",
+      "layer": "Scenario",
       "category": "Commercial / Retail",
       "description": "コロナ後のリアル回帰で商業施設が一時的に人流を取り戻すも、EC拡大には抗えず再び集客は低迷。",
       "probability": 0.3,
@@ -1012,7 +1012,7 @@
     {
       "id": "Mi-113",
       "display_name": "リアル商業施設のハイブリッド進化",
-      "layer": "scenario",
+      "layer": "Scenario",
       "category": "Commercial / Retail",
       "description": "オンライン注文とリアル受取を組み合わせたハイブリッドモデルが一部で定着するが、全国展開は限定的。",
       "probability": 0.5,
@@ -1021,7 +1021,7 @@
     {
       "id": "Mi-114",
       "display_name": "リアル商業施設の新常識化",
-      "layer": "scenario",
+      "layer": "Scenario",
       "category": "Commercial / Retail",
       "description": "体験型・ハイブリッド型施設が標準化し、純粋な物販から体験・EC連携店舗へ全面転換が進む。",
       "probability": 0.4,
@@ -1030,7 +1030,7 @@
     {
       "id": "Mi-115",
       "display_name": "ホテルAIチェックインの一過性ブーム",
-      "layer": "scenario",
+      "layer": "Scenario",
       "category": "Hotel & Hospitality",
       "description": "顔認証やAIチェックイン導入ホテルが話題となるも、プライバシー問題から多くが従来型に戻る。",
       "probability": 0.3,
@@ -1039,7 +1039,7 @@
     {
       "id": "Mi-116",
       "display_name": "ホテルAIチェックインの限定普及",
-      "layer": "scenario",
+      "layer": "Scenario",
       "category": "Hotel & Hospitality",
       "description": "高級ホテルやビジネスホテルチェーンでのみAIチェックインが継続されるが、中小は対応見送り。",
       "probability": 0.5,
@@ -1048,7 +1048,7 @@
     {
       "id": "Mi-117",
       "display_name": "ホテルAIチェックインの標準化",
-      "layer": "scenario",
+      "layer": "Scenario",
       "category": "Hotel & Hospitality",
       "description": "全ての宿泊施設がAI・非対面チェックインシステムを導入し、宿泊の新常識となる。",
       "probability": 0.4,
@@ -1057,7 +1057,7 @@
     {
       "id": "Mi-118",
       "display_name": "ラストワンマイル物流ドローンの一過性実証",
-      "layer": "scenario",
+      "layer": "Scenario",
       "category": "Infrastructure / Logistics",
       "description": "宅配ドローンの実証実験が話題になるも、規制や運用コストで商用化に至らず衰退。",
       "probability": 0.3,
@@ -1066,7 +1066,7 @@
     {
       "id": "Mi-119",
       "display_name": "ラストワンマイル物流ドローンの地域限定運用",
-      "layer": "scenario",
+      "layer": "Scenario",
       "category": "Infrastructure / Logistics",
       "description": "離島・山間部など特定地域でのみドローン物流が定着するが、都市部では配送トラックが主流。",
       "probability": 0.5,
@@ -1075,7 +1075,7 @@
     {
       "id": "Mi-120",
       "display_name": "ラストワンマイル物流ドローンの社会実装",
-      "layer": "scenario",
+      "layer": "Scenario",
       "category": "Infrastructure / Logistics",
       "description": "法整備と技術成熟により、都市部含む全国のラストワンマイルをドローンが担い、物流インフラの新常識に。",
       "probability": 0.4,
