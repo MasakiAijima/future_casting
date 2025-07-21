@@ -313,7 +313,7 @@ function toggleDescription(event, d) {
 
   if (!expanded) {
     desc.style("display", "block");
-    const width = newR * 2.4; // 1.2倍の直径
+    const width = newR * 2.0;
     wrapText(desc, width);
     const bbox = desc.node().getBBox();
     bg.attr("width", bbox.width + 8)
