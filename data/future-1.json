@@ -4,374 +4,436 @@
     {
       "id": "Mi-1",
       "display_name": "緑化屋上・屋上庭園",
-      "layer": "Micro",
-      "category": "Natural"
+      "layer": "Signal",
+      "category": "Environment",
+      "description": "緑化屋上・屋上庭園"
     },
     {
       "id": "Mi-2",
       "display_name": "雨水貯留・再利用タンク",
-      "layer": "Micro",
-      "category": "Natural"
+      "layer": "Signal",
+      "category": "Environment",
+      "description": "雨水貯留・再利用タンク"
     },
     {
       "id": "Mi-3",
       "display_name": "ダブルスキンファサードによる自然換気／日射遮蔽",
-      "layer": "Micro",
-      "category": "Natural"
+      "layer": "Signal",
+      "category": "Environment",
+      "description": "ダブルスキンファサードによる自然換気／日射遮蔽"
     },
     {
       "id": "Mi-4",
       "display_name": "太陽光発電パネル（BIPV）",
-      "layer": "Micro",
-      "category": "Natural"
+      "layer": "Signal",
+      "category": "Environment",
+      "description": "太陽光発電パネル（BIPV）"
     },
     {
       "id": "Mi-5",
       "display_name": "低放射率（Low‑E）ガラスとライトシェルフによる昼光利用",
-      "layer": "Micro",
-      "category": "Natural"
+      "layer": "Signal",
+      "category": "Environment",
+      "description": "低放射率（Low‑E）ガラスとライトシェルフによる昼光利用"
     },
     {
       "id": "Mi-6",
       "display_name": "高反射舗装によるヒートアイランド緩和",
-      "layer": "Micro",
-      "category": "Natural"
+      "layer": "Signal",
+      "category": "Environment",
+      "description": "高反射舗装によるヒートアイランド緩和"
     },
     {
       "id": "Mi-7",
       "display_name": "J‑REIT 等による資産証券化",
-      "layer": "Micro",
-      "category": "Financial"
+      "layer": "Signal",
+      "category": "Economy",
+      "description": "J‑REIT 等による資産証券化"
     },
     {
       "id": "Mi-8",
       "display_name": "フレキシブルリース／サブスク型コワーキング",
-      "layer": "Micro",
-      "category": "Financial"
+      "layer": "Signal",
+      "category": "Economy",
+      "description": "フレキシブルリース／サブスク型コワーキング"
     },
     {
       "id": "Mi-9",
       "display_name": "グリーンボンド／サステナビリティ・リンクローン",
-      "layer": "Micro",
-      "category": "Financial"
+      "layer": "Signal",
+      "category": "Economy",
+      "description": "グリーンボンド／サステナビリティ・リンクローン"
     },
     {
       "id": "Mi-10",
       "display_name": "デポジットレス保証・キャッシュレス決済",
-      "layer": "Micro",
-      "category": "Financial"
+      "layer": "Signal",
+      "category": "Economy",
+      "description": "デポジットレス保証・キャッシュレス決済"
     },
     {
       "id": "Mi-11",
       "display_name": "災害リスク保険・気候適応レジリエンス保険",
-      "layer": "Micro",
-      "category": "Financial"
+      "layer": "Signal",
+      "category": "Economy",
+      "description": "災害リスク保険・気候適応レジリエンス保険"
     },
     {
       "id": "Mi-12",
       "display_name": "PPA による屋上太陽光売電収入",
-      "layer": "Micro",
-      "category": "Financial"
+      "layer": "Signal",
+      "category": "Economy",
+      "description": "PPA による屋上太陽光売電収入"
     },
     {
       "id": "Mi-13",
       "display_name": "免震装置（コラムヘッド型など）",
-      "layer": "Micro",
-      "category": "Manufactured"
+      "layer": "Signal",
+      "category": "Technology",
+      "description": "免震装置（コラムヘッド型など）"
     },
     {
       "id": "Mi-14",
       "display_name": "高速・省エネエレベーター",
-      "layer": "Micro",
-      "category": "Manufactured"
+      "layer": "Signal",
+      "category": "Technology",
+      "description": "高速・省エネエレベーター"
     },
     {
       "id": "Mi-15",
       "display_name": "ヘリポート／ドクターヘリ対応屋上",
-      "layer": "Micro",
-      "category": "Manufactured"
+      "layer": "Signal",
+      "category": "Technology",
+      "description": "ヘリポート／ドクターヘリ対応屋上"
     },
     {
       "id": "Mi-16",
       "display_name": "非常用自家発電（燃料電池・ガスタービン）",
-      "layer": "Micro",
-      "category": "Manufactured"
+      "layer": "Signal",
+      "category": "Technology",
+      "description": "非常用自家発電（燃料電池・ガスタービン）"
     },
     {
       "id": "Mi-17",
       "display_name": "省エネ VRF 空調 & アイスストレージ",
-      "layer": "Micro",
-      "category": "Manufactured"
+      "layer": "Signal",
+      "category": "Technology",
+      "description": "省エネ VRF 空調 & アイスストレージ"
     },
     {
       "id": "Mi-18",
       "display_name": "低炭素コンクリート・プレキャスト外装",
-      "layer": "Micro",
-      "category": "Manufactured"
+      "layer": "Signal",
+      "category": "Technology",
+      "description": "低炭素コンクリート・プレキャスト外装"
     },
     {
       "id": "Mi-19",
       "display_name": "大深度地下駐車場＋EV 充電スタンド",
-      "layer": "Micro",
-      "category": "Manufactured"
+      "layer": "Signal",
+      "category": "Technology",
+      "description": "大深度地下駐車場＋EV 充電スタンド"
     },
     {
       "id": "Mi-20",
       "display_name": "BIM／デジタルツインによる FM（施設管理）",
-      "layer": "Micro",
-      "category": "Digital"
+      "layer": "Signal",
+      "category": "Technology",
+      "description": "BIM／デジタルツインによる FM（施設管理）"
     },
     {
       "id": "Mi-21",
       "display_name": "ビル全域 5G & Wi‑Fi 6 メッシュ",
-      "layer": "Micro",
-      "category": "Digital"
+      "layer": "Signal",
+      "category": "Technology",
+      "description": "ビル全域 5G & Wi‑Fi 6 メッシュ"
     },
     {
       "id": "Mi-22",
       "display_name": "顔認証 & スマホ連携アクセスコントロール",
-      "layer": "Micro",
-      "category": "Digital"
+      "layer": "Signal",
+      "category": "Technology",
+      "description": "顔認証 & スマホ連携アクセスコントロール"
     },
     {
       "id": "Mi-23",
       "display_name": "IoT センサー（CO₂・温湿度・在席）ネットワーク",
-      "layer": "Micro",
-      "category": "Digital"
+      "layer": "Signal",
+      "category": "Technology",
+      "description": "IoT センサー（CO₂・温湿度・在席）ネットワーク"
     },
     {
       "id": "Mi-24",
       "display_name": "デジタルサイネージ & AR Way‑finding",
-      "layer": "Micro",
-      "category": "Digital"
+      "layer": "Signal",
+      "category": "Technology",
+      "description": "デジタルサイネージ & AR Way‑finding"
     },
     {
       "id": "Mi-25",
       "display_name": "非接触エレベーター呼び出し",
-      "layer": "Micro",
-      "category": "Digital"
+      "layer": "Signal",
+      "category": "Technology",
+      "description": "非接触エレベーター呼び出し"
     },
     {
       "id": "Mi-26",
       "display_name": "テナント向けエネルギー・環境ダッシュボード",
-      "layer": "Micro",
-      "category": "Digital"
+      "layer": "Signal",
+      "category": "Technology",
+      "description": "テナント向けエネルギー・環境ダッシュボード"
     },
     {
       "id": "Mi-27",
       "display_name": "ウェルネス認証対応の換気・照明",
-      "layer": "Micro",
-      "category": "Human"
+      "layer": "Signal",
+      "category": "Social",
+      "description": "ウェルネス認証対応の換気・照明"
     },
     {
       "id": "Mi-28",
       "display_name": "コワーキング／リラックスラウンジ",
-      "layer": "Micro",
-      "category": "Human"
+      "layer": "Signal",
+      "category": "Social",
+      "description": "コワーキング／リラックスラウンジ"
     },
     {
       "id": "Mi-29",
       "display_name": "社員食堂・フィットネス・ナップポッド",
-      "layer": "Micro",
-      "category": "Human"
+      "layer": "Signal",
+      "category": "Social",
+      "description": "社員食堂・フィットネス・ナップポッド"
     },
     {
       "id": "Mi-30",
       "display_name": "ユニバーサルデザイン（点字・多目的トイレ）",
-      "layer": "Micro",
-      "category": "Human"
+      "layer": "Signal",
+      "category": "Social",
+      "description": "ユニバーサルデザイン（点字・多目的トイレ）"
     },
     {
       "id": "Mi-31",
       "display_name": "メンタルヘルス相談室",
-      "layer": "Micro",
-      "category": "Human"
+      "layer": "Signal",
+      "category": "Social",
+      "description": "メンタルヘルス相談室"
     },
     {
       "id": "Mi-32",
       "display_name": "定期避難／BCP 訓練",
-      "layer": "Micro",
-      "category": "Human"
+      "layer": "Signal",
+      "category": "Social",
+      "description": "定期避難／BCP 訓練"
     },
     {
       "id": "Mi-33",
       "display_name": "地域イベント／マルシェ用公開空地",
-      "layer": "Micro",
-      "category": "Social"
+      "layer": "Signal",
+      "category": "Social",
+      "description": "地域イベント／マルシェ用公開空地"
     },
     {
       "id": "Mi-34",
       "display_name": "帰宅困難者一時受入れ拠点",
-      "layer": "Micro",
-      "category": "Social"
+      "layer": "Signal",
+      "category": "Social",
+      "description": "帰宅困難者一時受入れ拠点"
     },
     {
       "id": "Mi-35",
       "display_name": "テナント横断の CSR / ボランティア",
-      "layer": "Micro",
-      "category": "Social"
+      "layer": "Signal",
+      "category": "Social",
+      "description": "テナント横断の CSR / ボランティア"
     },
     {
       "id": "Mi-36",
       "display_name": "無料展望フロアの一般開放",
-      "layer": "Micro",
-      "category": "Social"
+      "layer": "Signal",
+      "category": "Social",
+      "description": "無料展望フロアの一般開放"
     },
     {
       "id": "Mi-37",
       "display_name": "アートギャラリー & ポップアップスペース",
-      "layer": "Micro",
-      "category": "Social"
+      "layer": "Signal",
+      "category": "Social",
+      "description": "アートギャラリー & ポップアップスペース"
     },
     {
       "id": "Mi-38",
       "display_name": "屋上緑化義務（東京都条例）",
-      "layer": "Micro",
-      "category": "Political"
+      "layer": "Signal",
+      "category": "Politics",
+      "description": "屋上緑化義務（東京都条例）"
     },
     {
       "id": "Mi-39",
       "display_name": "建築基準法の最新耐震等級適合",
-      "layer": "Micro",
-      "category": "Political"
+      "layer": "Signal",
+      "category": "Politics",
+      "description": "建築基準法の最新耐震等級適合"
     },
     {
       "id": "Mi-40",
       "display_name": "再開発特定地区による容積率緩和認定",
-      "layer": "Micro",
-      "category": "Political"
+      "layer": "Signal",
+      "category": "Politics",
+      "description": "再開発特定地区による容積率緩和認定"
     },
     {
       "id": "Mi-41",
       "display_name": "BEMS・ZEB 支援補助金採択",
-      "layer": "Micro",
-      "category": "Political"
+      "layer": "Signal",
+      "category": "Politics",
+      "description": "BEMS・ZEB 支援補助金採択"
     },
     {
       "id": "Mi-42",
       "display_name": "テロ対策ガイドラインに準拠した警備動線",
-      "layer": "Micro",
-      "category": "Political"
+      "layer": "Signal",
+      "category": "Politics",
+      "description": "テロ対策ガイドラインに準拠した警備動線"
     },
     {
       "id": "Mi-43",
       "display_name": "ネオンサイン × 和柄のロビーアート",
-      "layer": "Micro",
-      "category": "Cultural"
+      "layer": "Signal",
+      "category": "N/A",
+      "description": "ネオンサイン × 和柄のロビーアート"
     },
     {
       "id": "Mi-44",
       "display_name": "季節イルミネーション（桜・七夕・紅葉）",
-      "layer": "Micro",
-      "category": "Cultural"
+      "layer": "Signal",
+      "category": "N/A",
+      "description": "季節イルミネーション（桜・七夕・紅葉）"
     },
     {
       "id": "Mi-45",
       "display_name": "茶室／書道体験コーナー",
-      "layer": "Micro",
-      "category": "Cultural"
+      "layer": "Signal",
+      "category": "N/A",
+      "description": "茶室／書道体験コーナー"
     },
     {
       "id": "Mi-46",
       "display_name": "メタボリズム建築要素の継承",
-      "layer": "Micro",
-      "category": "Cultural"
+      "layer": "Signal",
+      "category": "N/A",
+      "description": "メタボリズム建築要素の継承"
     },
     {
       "id": "Mi-47",
       "display_name": "多言語サインシステム",
-      "layer": "Micro",
-      "category": "Cultural"
+      "layer": "Signal",
+      "category": "N/A",
+      "description": "多言語サインシステム"
     },
     {
       "id": "Mi-48",
       "display_name": "地域祭事向け神輿収納／バルコニー",
-      "layer": "Micro",
-      "category": "Cultural"
+      "layer": "Signal",
+      "category": "N/A",
+      "description": "地域祭事向け神輿収納／バルコニー"
     },
     {
       "id": "Af-1",
       "display_name": "共有ラウンジで住民交流が生まれる",
-      "layer": "Affordance",
-      "category": "Social"
+      "layer": "Signal",
+      "category": "Social",
+      "description": "共有ラウンジで住民交流が生まれる"
     },
     {
       "id": "Af-2",
       "display_name": "地域行事に参加しやすい",
-      "layer": "Affordance",
-      "category": "Social"
+      "layer": "Signal",
+      "category": "Social",
+      "description": "地域行事に参加しやすい"
     },
     {
       "id": "Af-3",
       "display_name": "緑化や再エネに触れ環境意識が高まる",
-      "layer": "Affordance",
-      "category": "Natural"
+      "layer": "Signal",
+      "category": "Environment",
+      "description": "緑化や再エネに触れ環境意識が高まる"
     },
     {
       "id": "Af-4",
       "display_name": "バリアフリーで誰もが使いやすい",
-      "layer": "Affordance",
-      "category": "Human"
+      "layer": "Signal",
+      "category": "Social",
+      "description": "バリアフリーで誰もが使いやすい"
     },
     {
       "id": "Af-5",
       "display_name": "セキュリティと防災対策で安心する",
-      "layer": "Affordance",
-      "category": "Human"
+      "layer": "Signal",
+      "category": "Social",
+      "description": "セキュリティと防災対策で安心する"
     },
     {
       "id": "Af-6",
       "display_name": "デジタル管理で設備を効率共有",
-      "layer": "Affordance",
-      "category": "Digital"
+      "layer": "Signal",
+      "category": "Technology",
+      "description": "デジタル管理で設備を効率共有"
     },
     {
       "id": "Af-7",
       "display_name": "文化・芸術を身近に体験できる",
-      "layer": "Affordance",
-      "category": "Cultural"
+      "layer": "Signal",
+      "category": "N/A",
+      "description": "文化・芸術を身近に体験できる"
     },
     {
       "id": "Af-8",
       "display_name": "柔軟な契約で経済負担を抑える",
-      "layer": "Affordance",
-      "category": "Financial"
+      "layer": "Signal",
+      "category": "Economy",
+      "description": "柔軟な契約で経済負担を抑える"
     },
     {
       "id": "Im-1",
       "display_name": "住民同士の互助関係が深化する",
-      "layer": "Impact",
-      "category": "Social"
+      "layer": "Scenario",
+      "category": "Social",
+      "description": "住民同士の互助関係が深化する"
     },
     {
       "id": "Im-2",
       "display_name": "地域文化との共創が進む",
-      "layer": "Impact",
-      "category": "Cultural"
+      "layer": "Scenario",
+      "category": "N/A",
+      "description": "地域文化との共創が進む"
     },
     {
       "id": "Im-3",
       "display_name": "持続可能な資源循環が実現",
-      "layer": "Impact",
-      "category": "Natural"
+      "layer": "Scenario",
+      "category": "Environment",
+      "description": "持続可能な資源循環が実現"
     },
     {
       "id": "Im-4",
       "display_name": "包摂的で安心な生活基盤を実感",
-      "layer": "Impact",
-      "category": "Human"
+      "layer": "Scenario",
+      "category": "Social",
+      "description": "包摂的で安心な生活基盤を実感"
     },
     {
       "id": "Im-5",
       "display_name": "共有経済で生活コストが削減",
-      "layer": "Impact",
-      "category": "Financial"
+      "layer": "Scenario",
+      "category": "Economy",
+      "description": "共有経済で生活コストが削減"
     },
     {
       "id": "Go-1",
       "display_name": "雑居する居住者が互酬性を最大化させる場所",
-      "layer": "Goal",
-      "category": "Political"
+      "layer": "Paradigm",
+      "category": "Politics",
+      "description": "雑居する居住者が互酬性を最大化させる場所"
     }
   ],
   "links": [

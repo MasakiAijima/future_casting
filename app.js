@@ -36,44 +36,43 @@ function loadAndDraw(path) {
 
 
 // レイヤー構造（外側から内側へ）
-const layers = ["Micro", "Affordance", "Impact", "Goal"];
+//   Signal  -> Scenario -> Paradigm
+const layers = ["Signal", "Scenario", "Paradigm"];
 
 // 各レイヤーの中心半径（白とグレーの帯の中央）
-// 最内層の Goal は円の中心に配置する
+// 最内層の Paradigm は円の中心に配置する
 const step = (size - 80) / (layers.length - 1);
 const ringRadii = layers.map((_, i) => size - i * step);
-const layerRadiusByName = {
-  Micro: (ringRadii[0] + ringRadii[1]) / 2,
-  Affordance: (ringRadii[1] + ringRadii[2]) / 2,
-  Impact: (ringRadii[2] + ringRadii[3]) / 2,
-  Goal: 0
-};
+const layerRadiusByName = {};
+layers.forEach((layer, i) => {
+  layerRadiusByName[layer] = i === layers.length - 1
+    ? 0
+    : (ringRadii[i] + ringRadii[i + 1]) / 2;
+});
 
 // フォントサイズをレイヤー毎に指定
 const fontSizeByLayer = {
-  Micro: 12,
-  Affordance: 14,
-  Impact: 16,
-  Goal: 18
+  Signal: 12,
+  Scenario: 14,
+  Paradigm: 16
 };
 
 // ノード半径をレイヤー毎に指定（中心に向かうほど大きくする）
 const nodeRadiusByLayer = {
-  Micro: 12,          // 現在の4倍の面積 -> 半径2倍
-  Affordance: 16,
-  Impact: 20,
-  Goal: 24
+  Signal: 12,
+  Scenario: 16,
+  Paradigm: 20
 };
 
 // カテゴリごとの色設定
 const categoryColor = d3.scaleOrdinal()
   .domain([
-    "Natural", "Financial", "Manufactured", "Digital",
-    "Human", "Social", "Political", "Cultural"
+    "Social", "Technology", "Environment", "Economy",
+    "Ethics", "Politics", "N/A"
   ])
   .range([
     "#9ED2FF", "#AEEBD8", "#D8F5B0", "#FFD395",
-    "#FFF3A0", "#FFCCA2", "#F4A9B8", "#D8C8FF"
+    "#FFF3A0", "#FFCCA2", "#F4A9B8"
   ]);
 
 // データ読み込み
@@ -98,18 +97,18 @@ function draw({ nodes, links }) {
   const nodesByLayer = d3.group(nodes, d => d.layer);
   const nodeById = new Map(nodes.map(d => [d.id, d]));
 
-  // Micro レイヤーはデータ順のまま配置
-  const microNodes = nodesByLayer.get("Micro") || [];
-  microNodes.forEach((d, i) => {
-    const angle = (2 * Math.PI * i) / microNodes.length;
+  // Signal レイヤーはデータ順のまま配置
+  const signalNodes = nodesByLayer.get("Signal") || [];
+  signalNodes.forEach((d, i) => {
+    const angle = (2 * Math.PI * i) / signalNodes.length;
     d.angle = angle;
     d.radius = layerRadiusByName[d.layer];
     [d.x, d.y] = polarToCartesian(angle, d.radius);
   });
 
-  // Micro からのリンク情報をグループ化
-  const microLinks = links.filter(l => nodeById.get(l.source)?.layer === "Micro");
-  const microLinksByTarget = d3.group(microLinks, l => l.target);
+  // Signal からのリンク情報をグループ化
+  const signalLinks = links.filter(l => nodeById.get(l.source)?.layer === "Signal");
+  const signalLinksByTarget = d3.group(signalLinks, l => l.target);
 
   // 指定レイヤーのノードを、リンク元ノードの平均角度順に並べる
   function positionLayer(layer, inboundLinksByTarget) {
@@ -132,17 +131,12 @@ function draw({ nodes, links }) {
     });
   }
 
-  // Affordance レイヤーを並べ替え
-  positionLayer("Affordance", microLinksByTarget);
+  // Scenario レイヤーを並べ替え
+  positionLayer("Scenario", signalLinksByTarget);
 
-  // Affordance から Impact へのリンクを使って Impact を並べ替え
-  const affLinks = links.filter(l => nodeById.get(l.source)?.layer === "Affordance");
-  const affLinksByTarget = d3.group(affLinks, l => l.target);
-  positionLayer("Impact", affLinksByTarget);
-
-  // Goal レイヤー (中心) のノードを配置
-  const goalNodes = nodesByLayer.get("Goal") || [];
-  goalNodes.forEach(d => {
+  // Paradigm レイヤー (中心) のノードを配置
+  const paradigmNodes = nodesByLayer.get("Paradigm") || [];
+  paradigmNodes.forEach(d => {
     d.angle = 0;
     d.radius = layerRadiusByName[d.layer];
     [d.x, d.y] = polarToCartesian(0, d.radius);
