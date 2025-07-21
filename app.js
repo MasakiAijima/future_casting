@@ -166,6 +166,7 @@ function draw({ nodes, links }) {
     .attr("opacity", 0.4);
 
   // ノード描画
+  const defs = svg.append("defs");
   const nodeG = svg.append("g")
     .attr("class", "nodes")
     .selectAll("g")
@@ -177,12 +178,34 @@ function draw({ nodes, links }) {
     .on("mouseout", clearHighlight)
     .on("click", toggleDescription);
 
+  nodeG.each(function(d) {
+    if (d.image_url) {
+      defs.append("clipPath")
+        .attr("id", `clip-${d.id}`)
+        .append("circle")
+        .attr("r", nodeRadiusByLayer[d.layer]);
+    }
+  });
+
   // ノードの丸
   nodeG.append("circle")
+    .attr("class", "node-circle")
     .attr("r", d => nodeRadiusByLayer[d.layer])
     .attr("fill", d => categoryColor(d.category))
     .attr("stroke", "#fff")
     .attr("stroke-width", 1.5);
+
+  // ノードの画像
+  nodeG.filter(d => d.image_url)
+    .append("image")
+    .attr("class", "node-image")
+    .attr("href", d => d.image_url)
+    .attr("width", d => nodeRadiusByLayer[d.layer] * 2)
+    .attr("height", d => nodeRadiusByLayer[d.layer] * 2)
+    .attr("x", d => -nodeRadiusByLayer[d.layer])
+    .attr("y", d => -nodeRadiusByLayer[d.layer])
+    .attr("clip-path", d => `url(#clip-${d.id})`)
+    .style("display", "none");
 
   // ノードのテキスト（常に横書き）
   nodeG.append("text")
@@ -242,9 +265,38 @@ function clearHighlight() {
 }
 
 // ノードクリックで説明文の表示/非表示を切り替え
-function toggleDescription() {
+function toggleDescription(event, d) {
   const g = d3.select(this);
+  const circle = g.select("circle.node-circle");
+  const label = g.select("text:not(.description)");
   const desc = g.select("text.description");
-  const isVisible = desc.style("display") !== "none";
-  desc.style("display", isVisible ? "none" : "block");
+  const image = g.select("image.node-image");
+  const clipCircle = d3.select(`#clip-${d.id} circle`);
+
+  const expanded = circle.classed("expanded");
+  const baseR = nodeRadiusByLayer[d.layer];
+  const newR = expanded ? baseR : baseR * 10;
+
+  circle.classed("expanded", !expanded)
+    .transition()
+    .attr("r", newR);
+
+  if (clipCircle.node()) {
+    clipCircle.transition().attr("r", newR);
+  }
+
+  if (image.node()) {
+    if (!expanded) image.style("display", "block");
+    image.transition()
+      .attr("width", newR * 2)
+      .attr("height", newR * 2)
+      .attr("x", -newR)
+      .attr("y", -newR)
+      .on("end", () => {
+        if (expanded) image.style("display", "none");
+      });
+  }
+
+  label.style("display", expanded ? "block" : "none");
+  desc.style("display", expanded ? "none" : "block");
 }
