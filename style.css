@@ -46,3 +46,8 @@ svg text {
 .node text.description {
   fill: #333;
 }
+
+/* ノード画像のスタイル */
+.node image {
+  pointer-events: none;
+}
