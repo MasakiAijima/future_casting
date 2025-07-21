@@ -174,7 +174,8 @@ function draw({ nodes, links }) {
     .attr("transform", d => `translate(${d.x},${d.y})`)
     .attr("class", d => `node ${d.layer.toLowerCase()}`)
     .on("mouseover", highlight)
-    .on("mouseout", clearHighlight);
+    .on("mouseout", clearHighlight)
+    .on("click", toggleDescription);
 
   // ノードの丸
   nodeG.append("circle")
@@ -190,6 +191,17 @@ function draw({ nodes, links }) {
     .attr("text-anchor", "middle")
     .attr("fill", "#999")
     .style("font-size", d => `${fontSizeByLayer[d.layer]}px`)
+    .style("pointer-events", "none");
+
+  // 説明文（初期は非表示）
+  nodeG.append("text")
+    .attr("class", "description")
+    .text(d => d.description)
+    .attr("dy", "1.2em")
+    .attr("text-anchor", "middle")
+    .attr("fill", "#333")
+    .style("font-size", d => `${fontSizeByLayer[d.layer]}px`)
+    .style("display", "none")
     .style("pointer-events", "none");
 
   // 凡例
@@ -226,5 +238,13 @@ function highlight(event, d) {
 function clearHighlight() {
   svg.selectAll(".highlight").classed("highlight", false)
     .attr("stroke-opacity", 0.4);
-  svg.selectAll(".node text").attr("fill", "#999");
+  svg.selectAll(".node text:not(.description)").attr("fill", "#999");
+}
+
+// ノードクリックで説明文の表示/非表示を切り替え
+function toggleDescription() {
+  const g = d3.select(this);
+  const desc = g.select("text.description");
+  const isVisible = desc.style("display") !== "none";
+  desc.style("display", isVisible ? "none" : "block");
 }
