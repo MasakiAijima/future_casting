@@ -1084,7 +1084,7 @@
     {
       "id": "Mi-121",
       "display_name": "都市再生向けオープンデータ統合プラットフォーム",
-      "layer": "scenario",
+      "layer": "Scenario",
       "category": "Technology",
       "description": "自治体・デベロッパー・市民が連携し、IoTセンサーや防災情報、交通データなどを一元管理するオープンデータプラットフォームを構築。リアルタイム分析により、都市再生施策のPDCAを高速化し、老朽化ビル再生や空間活用を最適化する。地域特性を踏まえたカスタムAPIも公開され、幅広い二次利用を促進する。",
       "probability": 0.5,
@@ -1093,7 +1093,7 @@
     {
       "id": "Mi-122",
       "display_name": "地方創生×観光DXプログラム",
-      "layer": "scenario",
+      "layer": "Scenario",
       "category": "Economy",
       "description": "人口減少と高齢化で落ち込む地方の観光業を、AR/NFT技術と地域特産品ECを組み合わせたDXプログラムで再興。地域住民がガイド・体験を提供し、そのデジタルツインやNFTを観光客が収集・取引することで、地方経済に新たな収益モデルが生まれる。",
       "probability": 0.6,
@@ -1102,7 +1102,7 @@
     {
       "id": "Mi-123",
       "display_name": "コミュニティ共創型シェアスペース運営",
-      "layer": "scenario",
+      "layer": "Scenario",
       "category": "Society",
       "description": "雑居ビルや空き家を拠点に、住民・クリエイター・NPOが共創するシェアスペースを展開。ワークショップや子育て支援、福祉プログラムを複合させ、世代・属性を超えた交流場を提供。特定地域で成功したモデルを全国にフランチャイズ展開し、地域コミュニティの再編を促す。",
       "probability": 0.55,
@@ -1111,7 +1111,7 @@
     {
       "id": "Mi-124",
       "display_name": "スマートモビリティ統合ネットワーク計画",
-      "layer": "scenario",
+      "layer": "Scenario",
       "category": "Infrastructure / Logistics",
       "description": "MaaSプラットフォームと連携した自動運転バス、EVシェア、ドローン物流を統合。地域間×市街地をシームレスに結ぶネットワークを構築し、交通弱者にも対応。公共交通の運行データをリアルタイムで最適化し、交通渋滞緩和とCO₂排出削減を両立する。",
       "probability": 0.45,
@@ -1120,7 +1120,7 @@
     {
       "id": "Mi-125",
       "display_name": "次世代ワークプレイス認証制度",
-      "layer": "scenario",
+      "layer": "Scenario",
       "category": "Office",
       "description": "テレワーク特化オフィスやワーケーション拠点に対し、快適性・セキュリティ・環境配慮の観点で認証を付与。認証基準を満たす施設には税制優遇や補助金が提供され、企業・自治体の投資を後押し。認証マークがブランド価値となり、新たなオフィス需要を喚起する。",
       "probability": 0.5,
@@ -1129,7 +1129,7 @@
     {
       "id": "Mi-126",
       "display_name": "商店街DX復興イニシアチブ",
-      "layer": "scenario",
+      "layer": "Scenario",
       "category": "Commercial / Retail",
       "description": "小規模商店街を対象に、ECモール連携・シェア物流・キャッシュレス決済をパッケージ化した復興支援プログラムを開始。データ分析で顧客行動を可視化し、共同プロモーションやサブスク型サービスで売上を底上げ。地域横断型の商品開発も支援し、観光と地元消費を同時に活性化する。",
       "probability": 0.6,
@@ -1138,7 +1138,7 @@
     {
       "id": "Mi-127",
       "display_name": "宿泊業向けVR/AIゲストエクスペリエンス革命",
-      "layer": "scenario",
+      "layer": "Scenario",
       "category": "Hotel & Hospitality",
       "description": "VR内見とAIパーソナルコンシェルジュを組み合わせ、宿泊前から滞在中まで最適なプランを自動提案。文化体験や近隣店舗とのコラボチケットをNFT化し、リピート顧客を囲い込む。中小旅館・民泊にも導入可能なSaaSモデルで、地方観光をデジタルで革新する。",
       "probability": 0.5,
@@ -1147,7 +1147,7 @@
     {
       "id": "Mi-128",
       "display_name": "サステナブル住宅認証・ファイナンス連動制度",
-      "layer": "scenario",
+      "layer": "Scenario",
       "category": "Housing",
       "description": "環境性能・省エネ・コミュニティ形成を基準とする住宅認証制度を策定し、金融機関が認証取得住宅に低利ローンを提供。住宅購入層の意識変革を促し、脱炭素・地域共生型の新築・リノベーション市場を拡大する。",
       "probability": 0.55,
@@ -1156,7 +1156,7 @@
     {
       "id": "Mi-129",
       "display_name": "都市環境リアルタイムモニタリング網構築",
-      "layer": "scenario",
+      "layer": "Scenario",
       "category": "Environment",
       "description": "大気・騒音・水質・生物多様性をIoTセンサーとAI解析でリアルタイムモニタリング。市民向け可視化ダッシュボードを公開し、環境施策へのフィードバックループを確立。自治体・民間が協業し、異常値検知で迅速対応する共創型ガバナンスモデルを実現する。",
       "probability": 0.6,
