@@ -47,6 +47,12 @@ svg text {
   fill: #333;
 }
 
+/* 説明文背景 */
+.node rect.description-bg {
+  fill: rgba(255, 255, 255, 0.8);
+  pointer-events: none;
+}
+
 /* ノード画像のスタイル */
 .node image {
   pointer-events: none;
