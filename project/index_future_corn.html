@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <title>未来シナリオ：雑居化する超高層ビル群</title>
+  <script src="https://d3js.org/d3.v7.min.js"></script>
+  <link rel="stylesheet" href="style_future_corn.css" />
+</head>
+<body>
+  <h2>未来シナリオ：雑居化する超高層ビル群</h2>
+  <svg id="scenarioMap" width="1200" height="800"></svg>
+  <script>
+    d3.json("data/future-1.json").then(function(data) {
+      const svg = d3.select("#scenarioMap");
+      const width = +svg.attr("width");
+      const height = +svg.attr("height");
+
+      const margin = { top: 20, right: 20, bottom: 40, left: 80 };
+      const innerWidth = width - margin.left - margin.right;
+      const innerHeight = height - margin.top - margin.bottom;
+
+      const g = svg.append("g").attr("transform", `translate(${margin.left},${margin.top})`);
+
+      // 軸スケール
+      const xScale = d3.scaleLinear().domain([0, 15]).range([0, innerWidth]);
+      const yScale = d3.scaleLinear().domain([-1, 1]).range([innerHeight, 0]);
+
+      // 軸描画
+      g.append("g")
+        .attr("transform", `translate(0,${innerHeight / 2})`)
+        .call(d3.axisBottom(xScale).ticks(5).tickFormat(d => `+${d}年後`));
+
+      g.append("g")
+        .call(d3.axisLeft(yScale).ticks(5).tickFormat(d => {
+          if (d === 1) return "Utopia";
+          if (d === 0) return "Probable";
+          if (d === -1) return "Distopia";
+          return "";
+        }));
+
+      // ノード描画
+      g.selectAll("circle")
+        .data(data.nodes)
+        .enter()
+        .append("circle")
+        .attr("cx", d => xScale(d.timeline))
+        .attr("cy", d => yScale(d.probability))
+        .attr("r", 6)
+        .attr("fill", "steelblue")
+        .append("title")
+        .text(d => d.display_name);
+
+      // ラベル描画
+      g.selectAll("text.label")
+        .data(data.nodes)
+        .enter()
+        .append("text")
+        .attr("x", d => xScale(d.timeline) + 10)
+        .attr("y", d => yScale(d.probability))
+        .attr("dy", "0.35em")
+        .attr("font-size", "10px")
+        .text(d => d.display_name);
+
+      // リンク描画
+      g.selectAll("line.link")
+        .data(data.links)
+        .enter()
+        .append("line")
+        .attr("x1", d => xScale(data.nodes.find(n => n.id === d.source).timeline))
+        .attr("y1", d => yScale(data.nodes.find(n => n.id === d.source).probability))
+        .attr("x2", d => xScale(data.nodes.find(n => n.id === d.target).timeline))
+        .attr("y2", d => yScale(data.nodes.find(n => n.id === d.target).probability))
+        .attr("stroke", "#ccc")
+        .attr("stroke-width", 1);
+    });
+  </script>
+</body>
+</html>

@@ -1,0 +1,9 @@
+body {
+  font-family: "Helvetica Neue", sans-serif;
+  margin: 20px;
+}
+
+svg {
+  border: 1px solid #ddd;
+  background: #fafafa;
+}
