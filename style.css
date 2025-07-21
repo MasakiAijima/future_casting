@@ -41,3 +41,8 @@ svg text {
 .rings circle {
   stroke: none;
 }
+
+/* ノード説明テキスト */
+.node text.description {
+  fill: #333;
+}
