@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="utf-8">
+  <title>Anatomy of Infrastructure</title>
+  <script src="https://cdn.jsdelivr.net/npm/d3@7"></script>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h2 id="dataset-title"></h2>
+  <select id="dataset-selector"></select>
+  <!-- Center the visualization by using a symmetric viewBox -->
+  <!-- Increase the physical drawing area to roughly six times the
+       previous size by enlarging width and height -->
+  <svg id="viz" width="3000" height="3000" viewBox="-750 -750 1400 1700"></svg>
+  <script type="module" src="app.js"></script>
+</body>
+</html>

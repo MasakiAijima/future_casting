@@ -1,0 +1,43 @@
+:root {
+  font-family: "Noto Sans JP", sans-serif;
+}
+
+/* 全体スタイル */
+svg text {
+  font-size: 12px;
+  pointer-events: none;
+}
+
+/* ノードの円形スタイル */
+.node circle {
+  stroke: #fff;
+  stroke-width: 1.5px;
+}
+
+/* リンク線スタイル */
+.link {
+  fill: none;
+  stroke: #999;
+  stroke-width: 2px;
+  opacity: 0.4;
+}
+
+/* ホバー時のハイライト */
+.link.highlight {
+  stroke: #333;
+  stroke-width: 3px;
+  opacity: 0.9;
+}
+.node.highlight circle {
+  stroke-width: 3px;
+}
+
+/* カテゴリ凡例テキスト */
+.legend text {
+  font-size: 12px;
+}
+
+/* 背景リングのスタイル（必要なら指定） */
+.rings circle {
+  stroke: none;
+}

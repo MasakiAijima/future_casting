@@ -1,0 +1,792 @@
+{
+  "title": "新宿の高層ビル",
+  "nodes": [
+    {
+      "id": "Mi-1",
+      "display_name": "緑化屋上・屋上庭園",
+      "layer": "Micro",
+      "category": "Natural"
+    },
+    {
+      "id": "Mi-2",
+      "display_name": "雨水貯留・再利用タンク",
+      "layer": "Micro",
+      "category": "Natural"
+    },
+    {
+      "id": "Mi-3",
+      "display_name": "ダブルスキンファサードによる自然換気／日射遮蔽",
+      "layer": "Micro",
+      "category": "Natural"
+    },
+    {
+      "id": "Mi-4",
+      "display_name": "太陽光発電パネル（BIPV）",
+      "layer": "Micro",
+      "category": "Natural"
+    },
+    {
+      "id": "Mi-5",
+      "display_name": "低放射率（Low‑E）ガラスとライトシェルフによる昼光利用",
+      "layer": "Micro",
+      "category": "Natural"
+    },
+    {
+      "id": "Mi-6",
+      "display_name": "高反射舗装によるヒートアイランド緩和",
+      "layer": "Micro",
+      "category": "Natural"
+    },
+    {
+      "id": "Mi-7",
+      "display_name": "J‑REIT 等による資産証券化",
+      "layer": "Micro",
+      "category": "Financial"
+    },
+    {
+      "id": "Mi-8",
+      "display_name": "フレキシブルリース／サブスク型コワーキング",
+      "layer": "Micro",
+      "category": "Financial"
+    },
+    {
+      "id": "Mi-9",
+      "display_name": "グリーンボンド／サステナビリティ・リンクローン",
+      "layer": "Micro",
+      "category": "Financial"
+    },
+    {
+      "id": "Mi-10",
+      "display_name": "デポジットレス保証・キャッシュレス決済",
+      "layer": "Micro",
+      "category": "Financial"
+    },
+    {
+      "id": "Mi-11",
+      "display_name": "災害リスク保険・気候適応レジリエンス保険",
+      "layer": "Micro",
+      "category": "Financial"
+    },
+    {
+      "id": "Mi-12",
+      "display_name": "PPA による屋上太陽光売電収入",
+      "layer": "Micro",
+      "category": "Financial"
+    },
+    {
+      "id": "Mi-13",
+      "display_name": "免震装置（コラムヘッド型など）",
+      "layer": "Micro",
+      "category": "Manufactured"
+    },
+    {
+      "id": "Mi-14",
+      "display_name": "高速・省エネエレベーター",
+      "layer": "Micro",
+      "category": "Manufactured"
+    },
+    {
+      "id": "Mi-15",
+      "display_name": "ヘリポート／ドクターヘリ対応屋上",
+      "layer": "Micro",
+      "category": "Manufactured"
+    },
+    {
+      "id": "Mi-16",
+      "display_name": "非常用自家発電（燃料電池・ガスタービン）",
+      "layer": "Micro",
+      "category": "Manufactured"
+    },
+    {
+      "id": "Mi-17",
+      "display_name": "省エネ VRF 空調 & アイスストレージ",
+      "layer": "Micro",
+      "category": "Manufactured"
+    },
+    {
+      "id": "Mi-18",
+      "display_name": "低炭素コンクリート・プレキャスト外装",
+      "layer": "Micro",
+      "category": "Manufactured"
+    },
+    {
+      "id": "Mi-19",
+      "display_name": "大深度地下駐車場＋EV 充電スタンド",
+      "layer": "Micro",
+      "category": "Manufactured"
+    },
+    {
+      "id": "Mi-20",
+      "display_name": "BIM／デジタルツインによる FM（施設管理）",
+      "layer": "Micro",
+      "category": "Digital"
+    },
+    {
+      "id": "Mi-21",
+      "display_name": "ビル全域 5G & Wi‑Fi 6 メッシュ",
+      "layer": "Micro",
+      "category": "Digital"
+    },
+    {
+      "id": "Mi-22",
+      "display_name": "顔認証 & スマホ連携アクセスコントロール",
+      "layer": "Micro",
+      "category": "Digital"
+    },
+    {
+      "id": "Mi-23",
+      "display_name": "IoT センサー（CO₂・温湿度・在席）ネットワーク",
+      "layer": "Micro",
+      "category": "Digital"
+    },
+    {
+      "id": "Mi-24",
+      "display_name": "デジタルサイネージ & AR Way‑finding",
+      "layer": "Micro",
+      "category": "Digital"
+    },
+    {
+      "id": "Mi-25",
+      "display_name": "非接触エレベーター呼び出し",
+      "layer": "Micro",
+      "category": "Digital"
+    },
+    {
+      "id": "Mi-26",
+      "display_name": "テナント向けエネルギー・環境ダッシュボード",
+      "layer": "Micro",
+      "category": "Digital"
+    },
+    {
+      "id": "Mi-27",
+      "display_name": "ウェルネス認証対応の換気・照明",
+      "layer": "Micro",
+      "category": "Human"
+    },
+    {
+      "id": "Mi-28",
+      "display_name": "コワーキング／リラックスラウンジ",
+      "layer": "Micro",
+      "category": "Human"
+    },
+    {
+      "id": "Mi-29",
+      "display_name": "社員食堂・フィットネス・ナップポッド",
+      "layer": "Micro",
+      "category": "Human"
+    },
+    {
+      "id": "Mi-30",
+      "display_name": "ユニバーサルデザイン（点字・多目的トイレ）",
+      "layer": "Micro",
+      "category": "Human"
+    },
+    {
+      "id": "Mi-31",
+      "display_name": "メンタルヘルス相談室",
+      "layer": "Micro",
+      "category": "Human"
+    },
+    {
+      "id": "Mi-32",
+      "display_name": "定期避難／BCP 訓練",
+      "layer": "Micro",
+      "category": "Human"
+    },
+    {
+      "id": "Mi-33",
+      "display_name": "地域イベント／マルシェ用公開空地",
+      "layer": "Micro",
+      "category": "Social"
+    },
+    {
+      "id": "Mi-34",
+      "display_name": "帰宅困難者一時受入れ拠点",
+      "layer": "Micro",
+      "category": "Social"
+    },
+    {
+      "id": "Mi-35",
+      "display_name": "テナント横断の CSR / ボランティア",
+      "layer": "Micro",
+      "category": "Social"
+    },
+    {
+      "id": "Mi-36",
+      "display_name": "無料展望フロアの一般開放",
+      "layer": "Micro",
+      "category": "Social"
+    },
+    {
+      "id": "Mi-37",
+      "display_name": "アートギャラリー & ポップアップスペース",
+      "layer": "Micro",
+      "category": "Social"
+    },
+    {
+      "id": "Mi-38",
+      "display_name": "屋上緑化義務（東京都条例）",
+      "layer": "Micro",
+      "category": "Political"
+    },
+    {
+      "id": "Mi-39",
+      "display_name": "建築基準法の最新耐震等級適合",
+      "layer": "Micro",
+      "category": "Political"
+    },
+    {
+      "id": "Mi-40",
+      "display_name": "再開発特定地区による容積率緩和認定",
+      "layer": "Micro",
+      "category": "Political"
+    },
+    {
+      "id": "Mi-41",
+      "display_name": "BEMS・ZEB 支援補助金採択",
+      "layer": "Micro",
+      "category": "Political"
+    },
+    {
+      "id": "Mi-42",
+      "display_name": "テロ対策ガイドラインに準拠した警備動線",
+      "layer": "Micro",
+      "category": "Political"
+    },
+    {
+      "id": "Mi-43",
+      "display_name": "ネオンサイン × 和柄のロビーアート",
+      "layer": "Micro",
+      "category": "Cultural"
+    },
+    {
+      "id": "Mi-44",
+      "display_name": "季節イルミネーション（桜・七夕・紅葉）",
+      "layer": "Micro",
+      "category": "Cultural"
+    },
+    {
+      "id": "Mi-45",
+      "display_name": "茶室／書道体験コーナー",
+      "layer": "Micro",
+      "category": "Cultural"
+    },
+    {
+      "id": "Mi-46",
+      "display_name": "メタボリズム建築要素の継承",
+      "layer": "Micro",
+      "category": "Cultural"
+    },
+    {
+      "id": "Mi-47",
+      "display_name": "多言語サインシステム",
+      "layer": "Micro",
+      "category": "Cultural"
+    },
+    {
+      "id": "Mi-48",
+      "display_name": "地域祭事向け神輿収納／バルコニー",
+      "layer": "Micro",
+      "category": "Cultural"
+    },
+    {
+      "id": "Af-1",
+      "display_name": "雑談が自然に発生する",
+      "layer": "Affordance",
+      "category": "Social"
+    },
+    {
+      "id": "Af-2",
+      "display_name": "一息ついてリフレッシュできる",
+      "layer": "Affordance",
+      "category": "Natural"
+    },
+    {
+      "id": "Af-3",
+      "display_name": "遠景・眺望を楽しむ",
+      "layer": "Affordance",
+      "category": "Natural"
+    },
+    {
+      "id": "Af-4",
+      "display_name": "単調さ（ルーチン化された移動・作業）を感じる",
+      "layer": "Affordance",
+      "category": "Manufactured"
+    },
+    {
+      "id": "Af-5",
+      "display_name": "“安心”を感じる（災害時も壊れない・止まらない）",
+      "layer": "Affordance",
+      "category": "Human"
+    },
+    {
+      "id": "Af-6",
+      "display_name": "時間を節約できる（移動・入退館が速い）",
+      "layer": "Affordance",
+      "category": "Digital"
+    },
+    {
+      "id": "Af-7",
+      "display_name": "健康意識が高まる（身体活動を選びやすい）",
+      "layer": "Affordance",
+      "category": "Human"
+    },
+    {
+      "id": "Af-8",
+      "display_name": "“一人になれる”孤立・集中感を得る",
+      "layer": "Affordance",
+      "category": "Human"
+    },
+    {
+      "id": "Af-9",
+      "display_name": "創造性・感性が刺激される",
+      "layer": "Affordance",
+      "category": "Cultural"
+    },
+    {
+      "id": "Af-10",
+      "display_name": "互助・共助を感じる（災害・イベント時に助け合う）",
+      "layer": "Affordance",
+      "category": "Social"
+    },
+    {
+      "id": "Af-11",
+      "display_name": "エコ／省資源への気づきが得られる",
+      "layer": "Affordance",
+      "category": "Natural"
+    },
+    {
+      "id": "Af-12",
+      "display_name": "国際的な雰囲気を感じる",
+      "layer": "Affordance",
+      "category": "Cultural"
+    },
+    {
+      "id": "Af-13",
+      "display_name": "“特別感／ステータス”を味わう",
+      "layer": "Affordance",
+      "category": "Cultural"
+    },
+    {
+      "id": "Af-14",
+      "display_name": "常に快適である（温熱・照度・音環境）",
+      "layer": "Affordance",
+      "category": "Human"
+    },
+    {
+      "id": "Af-15",
+      "display_name": "混雑を避けられる／行列が起きにくい",
+      "layer": "Affordance",
+      "category": "Digital"
+    },
+    {
+      "id": "Af-16",
+      "display_name": "包摂性（誰でも使える）を感じる",
+      "layer": "Affordance",
+      "category": "Human"
+    },
+    {
+      "id": "Af-17",
+      "display_name": "自律性（外部インフラ途絶でも機能）を実感する",
+      "layer": "Affordance",
+      "category": "Social"
+    },
+    {
+      "id": "Af-18",
+      "display_name": "コミュニティ一体感を味わう",
+      "layer": "Affordance",
+      "category": "Social"
+    },
+    {
+      "id": "Im-1",
+      "display_name": "ワーカー生産性の向上",
+      "layer": "Impact",
+      "category": "Human"
+    },
+    {
+      "id": "Im-2",
+      "display_name": "メンタル・フィジカルウェルビーイングの向上",
+      "layer": "Impact",
+      "category": "Human"
+    },
+    {
+      "id": "Im-3",
+      "display_name": "レジリエンス ＆ 安心感の獲得",
+      "layer": "Impact",
+      "category": "Human"
+    },
+    {
+      "id": "Im-4",
+      "display_name": "インフォーマル知識共有の活性化",
+      "layer": "Impact",
+      "category": "Social"
+    },
+    {
+      "id": "Im-5",
+      "display_name": "環境負荷の低減とエコ意識の醸成",
+      "layer": "Impact",
+      "category": "Natural"
+    },
+    {
+      "id": "Im-6",
+      "display_name": "アクセスビリティ & インクルージョンの向上",
+      "layer": "Impact",
+      "category": "Human"
+    },
+    {
+      "id": "Im-7",
+      "display_name": "都市コミュニティへの開放・地域貢献",
+      "layer": "Impact",
+      "category": "Social"
+    },
+    {
+      "id": "Im-8",
+      "display_name": "テナント／人材の誘引力向上",
+      "layer": "Impact",
+      "category": "Financial"
+    },
+    { "id": "Go-1", "display_name": "入居テナント生産性の最大化", "layer": "Goal", "category": "Political" }
+  ],
+  "links": [
+    {
+      "source": "Mi-8",
+      "target": "Af-1"
+    },
+    {
+      "source": "Mi-33",
+      "target": "Af-1"
+    },
+    {
+      "source": "Mi-36",
+      "target": "Af-1"
+    },
+    {
+      "source": "Mi-49",
+      "target": "Af-1"
+    },
+    {
+      "source": "Mi-1",
+      "target": "Af-2"
+    },
+    {
+      "source": "Mi-36",
+      "target": "Af-2"
+    },
+    {
+      "source": "Mi-9",
+      "target": "Af-2"
+    },
+    {
+      "source": "Mi-5",
+      "target": "Af-3"
+    },
+    {
+      "source": "Mi-50",
+      "target": "Af-3"
+    },
+    {
+      "source": "Mi-14",
+      "target": "Af-4"
+    },
+    {
+      "source": "Mi-28",
+      "target": "Af-4"
+    },
+    {
+      "source": "Mi-29",
+      "target": "Af-4"
+    },
+    {
+      "source": "Mi-13",
+      "target": "Af-5"
+    },
+    {
+      "source": "Mi-16",
+      "target": "Af-5"
+    },
+    {
+      "source": "Mi-39",
+      "target": "Af-5"
+    },
+    {
+      "source": "Mi-34",
+      "target": "Af-5"
+    },
+    {
+      "source": "Mi-20",
+      "target": "Af-6"
+    },
+    {
+      "source": "Mi-26",
+      "target": "Af-6"
+    },
+    {
+      "source": "Mi-14",
+      "target": "Af-6"
+    },
+    {
+      "source": "Mi-35",
+      "target": "Af-7"
+    },
+    {
+      "source": "Mi-38",
+      "target": "Af-7"
+    },
+    {
+      "source": "Mi-1",
+      "target": "Af-7"
+    },
+    {
+      "source": "Mi-30",
+      "target": "Af-8"
+    },
+    {
+      "source": "Mi-22",
+      "target": "Af-8"
+    },
+    {
+      "source": "Mi-52",
+      "target": "Af-9"
+    },
+    {
+      "source": "Mi-51",
+      "target": "Af-9"
+    },
+    {
+      "source": "Mi-15",
+      "target": "Af-9"
+    },
+    {
+      "source": "Mi-34",
+      "target": "Af-10"
+    },
+    {
+      "source": "Mi-39",
+      "target": "Af-10"
+    },
+    {
+      "source": "Mi-36",
+      "target": "Af-10"
+    },
+    {
+      "source": "Mi-27",
+      "target": "Af-11"
+    },
+    {
+      "source": "Mi-4",
+      "target": "Af-11"
+    },
+    {
+      "source": "Mi-2",
+      "target": "Af-11"
+    },
+    {
+      "source": "Mi-55",
+      "target": "Af-12"
+    },
+    {
+      "source": "Mi-25",
+      "target": "Af-12"
+    },
+    {
+      "source": "Mi-53",
+      "target": "Af-13"
+    },
+    {
+      "source": "Mi-15",
+      "target": "Af-13"
+    },
+    {
+      "source": "Mi-54",
+      "target": "Af-13"
+    },
+    {
+      "source": "Mi-29",
+      "target": "Af-14"
+    },
+    {
+      "source": "Mi-24",
+      "target": "Af-14"
+    },
+    {
+      "source": "Mi-5",
+      "target": "Af-14"
+    },
+    {
+      "source": "Mi-23",
+      "target": "Af-15"
+    },
+    {
+      "source": "Mi-21",
+      "target": "Af-15"
+    },
+    {
+      "source": "Mi-32",
+      "target": "Af-16"
+    },
+    {
+      "source": "Mi-38",
+      "target": "Af-16"
+    },
+    {
+      "source": "Mi-16",
+      "target": "Af-17"
+    },
+    {
+      "source": "Mi-2",
+      "target": "Af-17"
+    },
+    {
+      "source": "Mi-37",
+      "target": "Af-17"
+    },
+    {
+      "source": "Mi-36",
+      "target": "Af-18"
+    },
+    {
+      "source": "Mi-19",
+      "target": "Af-18"
+    },
+    {
+      "source": "Af-6",
+      "target": "Im-1"
+    },
+    {
+      "source": "Af-15",
+      "target": "Im-1"
+    },
+    {
+      "source": "Af-8",
+      "target": "Im-1"
+    },
+    {
+      "source": "Af-2",
+      "target": "Im-2"
+    },
+    {
+      "source": "Af-7",
+      "target": "Im-2"
+    },
+    {
+      "source": "Af-14",
+      "target": "Im-2"
+    },
+    {
+      "source": "Af-5",
+      "target": "Im-3"
+    },
+    {
+      "source": "Af-17",
+      "target": "Im-3"
+    },
+    {
+      "source": "Af-1",
+      "target": "Im-4"
+    },
+    {
+      "source": "Af-18",
+      "target": "Im-4"
+    },
+    {
+      "source": "Af-11",
+      "target": "Im-5"
+    },
+    {
+      "source": "Af-14",
+      "target": "Im-5"
+    },
+    {
+      "source": "Af-16",
+      "target": "Im-6"
+    },
+    {
+      "source": "Af-10",
+      "target": "Im-7"
+    },
+    {
+      "source": "Af-18",
+      "target": "Im-7"
+    },
+    {
+      "source": "Af-13",
+      "target": "Im-8"
+    },
+    {
+      "source": "Af-12",
+      "target": "Im-8"
+    },
+    {
+      "source": "Mi-3",
+      "target": "Af-11"
+    },
+    {
+      "source": "Mi-6",
+      "target": "Af-2"
+    },
+    {
+      "source": "Mi-7",
+      "target": "Af-13"
+    },
+    {
+      "source": "Mi-10",
+      "target": "Af-6"
+    },
+    {
+      "source": "Mi-11",
+      "target": "Af-5"
+    },
+    {
+      "source": "Mi-12",
+      "target": "Af-11"
+    },
+    {
+      "source": "Mi-17",
+      "target": "Af-14"
+    },
+    {
+      "source": "Mi-18",
+      "target": "Af-11"
+    },
+    {
+      "source": "Mi-31",
+      "target": "Af-7"
+    },
+    {
+      "source": "Mi-40",
+      "target": "Af-15"
+    },
+    {
+      "source": "Mi-41",
+      "target": "Af-11"
+    },
+    {
+      "source": "Mi-42",
+      "target": "Af-5"
+    },
+    {
+      "source": "Mi-43",
+      "target": "Af-9"
+    },
+    {
+      "source": "Mi-44",
+      "target": "Af-9"
+    },
+    {
+      "source": "Mi-45",
+      "target": "Af-12"
+    },
+    {
+      "source": "Mi-46",
+      "target": "Af-13"
+    },
+    {
+      "source": "Mi-47",
+      "target": "Af-16"
+    },
+    {
+      "source": "Mi-48",
+      "target": "Af-18"
+    }
+  ]
+}
