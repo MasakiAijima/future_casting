@@ -216,6 +216,13 @@ function draw({ nodes, links }) {
     .style("font-size", d => `${fontSizeByLayer[d.layer]}px`)
     .style("pointer-events", "none");
 
+  // 説明用背景（初期は非表示）
+  nodeG.append("rect")
+    .attr("class", "description-bg")
+    .attr("rx", 4)
+    .attr("ry", 4)
+    .style("display", "none");
+
   // 説明文（初期は非表示）
   nodeG.append("text")
     .attr("class", "description")
@@ -274,6 +281,7 @@ function toggleDescription(event, d) {
   const circle = g.select("circle.node-circle");
   const label = g.select("text:not(.description)");
   const desc = g.select("text.description");
+  const bg = g.select("rect.description-bg");
   const image = g.select("image.node-image");
   const clipCircle = d3.select(`#clip-${d.id} circle`);
 
@@ -301,6 +309,54 @@ function toggleDescription(event, d) {
       });
   }
 
-  label.style("display", expanded ? "block" : "none");
-  desc.style("display", expanded ? "none" : "block");
+  label.style("display", "block");
+
+  if (!expanded) {
+    desc.style("display", "block");
+    const width = newR * 3;
+    wrapText(desc, width);
+    const bbox = desc.node().getBBox();
+    bg.attr("width", bbox.width + 8)
+      .attr("height", bbox.height + 4)
+      .attr("x", bbox.x - 4)
+      .attr("y", bbox.y - 2)
+      .style("display", "block");
+  } else {
+    desc.style("display", "none");
+    bg.style("display", "none");
+  }
+}
+
+// テキストを指定幅で折り返す
+function wrapText(textSelection, width) {
+  textSelection.each(function() {
+    const text = d3.select(this);
+    const words = text.text().split(/\s+/).reverse();
+    let word;
+    let line = [];
+    let lineNumber = 0;
+    const lineHeight = 1.1; // ems
+    const y = text.attr("y") || 0;
+    const dy = parseFloat(text.attr("dy")) || 0;
+    let tspan = text.text(null)
+      .append("tspan")
+      .attr("x", 0)
+      .attr("y", y)
+      .attr("dy", dy + "em");
+
+    while (word = words.pop()) {
+      line.push(word);
+      tspan.text(line.join(" "));
+      if (tspan.node().getComputedTextLength() > width) {
+        line.pop();
+        tspan.text(line.join(" "));
+        line = [word];
+        tspan = text.append("tspan")
+          .attr("x", 0)
+          .attr("y", y)
+          .attr("dy", ++lineNumber * lineHeight + dy + "em")
+          .text(word);
+      }
+    }
+  });
 }
